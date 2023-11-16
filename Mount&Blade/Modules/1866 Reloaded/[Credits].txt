@@ -1,0 +1,6 @@
+New troops, items, weapons, and all the additions from 1866 Resurrected by "blaise.alexander" (see his mod on ModDB for more info)
+Faces by	"Yiyang Chen"
+Backgrounds by "TheWitcher" and "Kartoffel"
+Skeleton meshes, some textures by "gutekfiutek"
+Skies by "Havoc"
+Death Crawl animations by "Bite Me"

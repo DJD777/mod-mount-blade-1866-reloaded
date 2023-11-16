@@ -1,0 +1,47 @@
+Note: where string IDs are the same as Native's, it means this module is accessing and using Native's music file. 
+For example, defeat in OG 1866 uses Native's ID, and 1866's original music text had another music listed, 
+but it's never heard because that ID doesn't work for any new music, only the Native file.
+
+However, new music can be added using Native's IDs by first backing up and renaming original files, making
+copies that will be overwritten, and overwriting them with the new music that has the same file format and name.
+It seems that to replace the file and have it played by the ID, it has to have the same metadata, hence why a copy
+of the original needs to be overwritten (preserves some original metadata). The original line location in the music.txt file 
+needs to be the same as Native, too.
+
+The above may be true, but in the case of playing stinger music for capture and escape (treated more like sounds than music by the game), 
+the correct line in the music.txt file was all that was needed, placing any music, with any code, in the same line number as in the OG 1866 mod that had the desired music (e.g., "capture.ogg", "And_Awaken.mp3")
+will play that file for being captured (line 4), and then for the escape (line 5), respectively. 
+
+Music will change between scenes, even if both scenes have the same music file available in its pool (except when no transition is specified, like in villages).
+Forts don't seem to have music, but can play culture-specific music. 
+Villages don't seem to have a music transition, so seem to carry on map music. 
+Map music seems to choose from a culture-specific pool IN ADDITION to from a pool of general music.
+Apaches and Commanches have same culture.
+Towns don't play music at night (tested: Mexican, Indian, American). Maybe Native module does? If so, can overwrite to play town music at night.
+Other factions (lawmen, bands, etc.) seem to be part of one of the 3 cultures and will switch music in their buildings, regardless of the surrounding town's culture. Tested Morris Banda: Mexican; Something Lawmen: American; Bennet Gang: Indian.
+Combat at night plays music from regular music pool (even/outmatched?) as well as night combat music. IT COULD BE that the marauders I fought to test are part of Indian culture, like how the Bennet Gang is, for some reason.
+Victory musics seem to play from any of multiple pools of victory music.
+Switching from victory screen to map to fighting didn't change music until it ended.
+
+IDs:
+transition? 268435584 268509312
+looted village: 268435584 268435584
+defeat: 33087 33087 (Native)
+victory (OG: yellowrose): 276824193 276825217
+victory (OG: Western_Goldrush and Dead_mans_moon): 276824255 276825279
+victory? (OG: As_the_dust_settles): 276824192 276824192
+captured, looted village, escape (see notes on how it works): 256 (Native; code doesn't matter, only line position does)
+map, culture all: 268501183 268501183
+map, culture American: 268501121 268501121
+map, culture Indian: 268501132 268501132
+map, culture Mexican: 268501122 268501122
+in-person, culture American: 268443777 268443777
+in-person, culture Indian: 268443788 268443788
+in-person, culture Mexican: 268443778 268443778
+combat even/overmatched: 268698815 268698815
+combat siege/outnumbered: 268439743 268439743
+combat, against culture Indian? (seems so): 268698764 268698764
+combat Indian night?: 268451980 268451980
+main menu: 272629888 272695424
+infiltration: 268451970 268451970
+infiltration? (my hack but unused in OG ?): 268451969 268451969

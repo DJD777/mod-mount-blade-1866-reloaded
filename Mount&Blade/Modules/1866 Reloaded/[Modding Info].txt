@@ -1,0 +1,16 @@
+To edit strings, dialogues, quest strings, etc., edit:
+strings.txt
+quick_strings.txt
+quests.txt
+mission_templates.txt
+
+To edit music, edit:
+[Music Strings].txt (to see my research on music strings)
+music.txt
+
+To edit animations, edit:
+actions.txt
+
+To edit skins, face gens, and NPC sounds, edit:
+skins.txt
+sounds.txt (in combination with skins.txt for editing NPC sounds)

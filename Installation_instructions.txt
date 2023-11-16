@@ -1,0 +1,27 @@
+-------------------------------
+BEFORE YOU INSTALL
+-------------------------------
+This mod is ONLY for the original Mount & Blade, v1.011. The version available at TaleWorlds (https://www.taleworlds.com/en/Games/MountAndBlade) works flawlessly for me, and you should be able to activate it using your existing CD key, even if your version is from GOG or Steam, I believe. 
+
+The GOG version of the game is NOT the same; there's some discrepancy in "mount&blade.exe", or in some other file, that may make the game throw lots of errors while playing 1866 Reloaded. 
+
+I don't know about the Steam version; it's safest to just use the TaleWorld's version.
+
+------------------------------------------
+INSTALLATION INSTRUCTIONS
+------------------------------------------
+	1) OPTIONAL: If you don't want an original file being overwritten, find your game's directory, go in "Data", and make a backup of "Font_data.xml".
+
+	2) Drag my mod's "Mount&Blade" folder over your game's directory folder (i.e., the folder that has the same name).
+
+	3) Overwrite "Font_data.xml" when asked. The new one sharpens in-game text for larger, modern screens, from what I recall.
+
+	4) Download the 4GB patcher from https://ntcore.com and use it to patch the "mount&blade.exe" in the game's main installation folder. A backup will be created by the patcher.
+
+		Once downloaded, you can patch the game's executable either by:
+
+		a) dragging "mount&blade.exe" over the patcher's executable, OR
+	
+		b) clicking and running the patcher, and patching "mount&blade.exe" through the program's interface.
+
+	5) OPTIONAL: Choose an alternative Mexican commands voice if you want. I recorded them to have better pronunciation, sound quality, and (hopefully) grammar than the original 1866 recordings, but the new recordings may not suit everyone's tastes, and the grammar might be hit-or-miss; hence they are optional.

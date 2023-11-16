@@ -1,0 +1,33 @@
+lowercase, first, multiple uses separated by "_": 
+c = captured
+ci = combat indians
+ce = combat eerie (unknown if used)
+cn = combat normal (evenly or overmatched)
+co = combat outnumbered
+e = escape
+d = defeat
+i = infiltration
+l = looted (village)
+m = map
+t = town
+ti = title
+v = victory
+~x = unused
+
+UPPERCASE, next, multiple cultures listed in alphabetical order: 
+A = American
+I = Indian
+M = Mexican
+U = Universal (all cultures)
+
+Source
+
+Title of music
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Examples: 
+mU_Morricone_Mystic_and_Severe = map, universal, by Morricone, "Mystic and Severe"
+tAM_RDR2_Outlaws_from_the_West
+cn_co_ci_GUN_Ancient_Ruins_Kill
+c_d_l_mU_wind2
